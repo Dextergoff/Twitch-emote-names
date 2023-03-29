@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "TTV tools",
-  "description": "tools for twitch.tv",
+  "name": "TTVT",
+  "description": " 7tv emote names",
   "version": "1.0",
   "action": {
     "default_icon": "smile.png"
@@ -10,11 +10,7 @@
     "service_worker": "worker.js"
   },
   "permissions": [
-    "activeTab",
     "scripting",
     "tabs"
-  ],
-  "host_permissions": [
-    "https://www.twitch.tv/"
   ]
 }
